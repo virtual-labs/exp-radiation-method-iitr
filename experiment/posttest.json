@@ -1,39 +1,4 @@
 {
   "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+  "questions":[{"question":"The plotting of small areas, which can be commanded from a single station, is ususally done on the plane table by the method of ","answers":{"a":"Radiation","b":"Intersection","c":"Traversing","d":"Resection"},"correctAnswer":"a"},{"question":"Which of the following can give the best output?","answers":{"a":"Traversing","b":"Intersection","c":"Resection","d":"Radiation"},"correctAnswer":"a"},{"question":"In ____________ method of plane table surveying, maximim number of ground measurements are made.","answers":{"a":"Resection","b":"Intersection","c":"Radiation","d":"Traversing"},"correctAnswer":"c"},{"question":"TWhich among the following set share the same working principle?","answers":{"a":"Traversing and Radiation","b":"Traversing and trisection","c":"Traversing and Resection","d":"Traversing and intersection"},"correctAnswer":"a"},{"question":"Which of the following methods is more suitable in case of small distances?","answers":{"a":"Traversing","b":"Radiation","c":"Resection","d":"Intersection"},"correctAnswer":"c"}]
 }
