@@ -1,0 +1,650 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+#header {
+    border-bottom: 8px solid #ff6600;
+    font-family: 'Raleway', sans-serif;
+    width: 1890px;
+    top: 0;
+    min-width: 500px;
+    background-color: #fff!important;
+}
+
+#header img {
+    padding: 8px 8px 4px 32px;
+}
+
+h2 {
+    font-size: large;
+}
+#steps{
+    margin-top: 20px;
+    font-size: 30px;
+}
+ol{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+#labName {
+    float: right;
+    font-size: 25px;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 40px;
+    color: #2C99CE;
+}
+
+#exp-name {
+    width: 1890px;
+    text-align: center;
+    padding: 10px;
+    height: 20px;
+    color: #2C99CE;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid #333;
+} 
+#main{
+
+    margin-top: 50px;
+    margin-left: 300px;
+    height: 700px;
+    width: 1000px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+#main_ob_plot{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 720px;
+    width: 1300px;
+    background-color: blanchedalmond;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-image: url("../images/capture.PNG");
+}
+
+#birds{
+    height:150px;
+    width:350px;
+}
+#tree{
+
+    margin-top: 180px;
+    margin-left: 320px;
+    float:left;
+    cursor: pointer;
+    position:absolute;
+    
+}
+#tree-obj{
+    position: absolute;
+    left: 23%;
+    top:30%;
+    color: black;
+    font-size: medium;
+    background-color: blanchedalmond;
+    white-space: nowrap;
+    border:2px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5 s ease;
+
+}
+#tree-obj::before{
+    content: "";
+    position: absolute;
+    left:50%;
+    top:100%;
+    transform: translateX(-50%);
+    border:15px solid;
+    border-color: blanchedalmond #0000 #0000 #0000;
+}
+#tree_div:hover #tree-obj{
+    
+    visibility: visible;
+    opacity: 0.9;
+}
+
+#tower{
+
+    margin-top: 230px;
+    margin-left: 810px;
+    float:left;
+    cursor: pointer;
+    position:absolute;
+}
+#tower-obj{
+    position: absolute;
+    left: 45%;
+    top:35%;
+    color: black;
+    font-size: medium;
+    background-color: blanchedalmond;
+    white-space: nowrap;
+    border:2px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5 s ease;
+
+}
+#tower-obj::before{
+    content: "";
+    position: absolute;
+    left:50%;
+    top:100%;
+    transform: translateX(-50%);
+    border:15px solid;
+    border-color: blanchedalmond #0000 #0000 #0000;
+}
+#tower_div:hover #tower-obj{
+    
+    visibility: visible;
+    opacity: 0.9;
+}
+
+#solar1{
+
+    margin-top: 290px;
+    margin-left: 940px;
+    float:left;
+    cursor: pointer;
+    position:absolute;
+}
+#solar-obj{
+    position: absolute;
+    left: 52.5%;
+    top:43%;
+    color: black;
+    font-size: medium;
+    background-color: blanchedalmond;
+    white-space: nowrap;
+    border:2px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5 s ease;
+
+}
+#solar-obj::before{
+    content: "";
+    position: absolute;
+    left:50%;
+    top:100%;
+    transform: translateX(-50%);
+    border:15px solid;
+    border-color: blanchedalmond #0000 #0000 #0000;
+}
+#solar_div:hover #solar-obj{
+    
+    visibility: visible;
+    opacity: 0.9;
+}
+
+
+#house{
+
+    margin-top: 285px;
+    margin-left: 1080px;
+    float:left;
+    cursor: pointer;
+    position:absolute;
+}
+#house-obj{
+    position: absolute;
+    left: 61%;
+    top:44%;
+    color: black;
+    font-size: medium;
+    background-color: blanchedalmond;
+    white-space: nowrap;
+    border:2px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5 s ease;
+
+}
+#house-obj::before{
+    content: "";
+    position: absolute;
+    left:50%;
+    top:100%;
+    transform: translateX(-50%);
+    border:15px solid;
+    border-color: blanchedalmond #0000 #0000 #0000;
+}
+#house_div:hover #house-obj{
+    
+    visibility: visible;
+    opacity: 0.9;
+}
+#solar2{
+
+    margin-top: 350px;
+    margin-left: 1195px;
+    float:left;
+    cursor: pointer;
+    position:absolute;
+}
+#street-obj{
+    position: absolute;
+    left: 63.5%;
+    top:49%;
+    color: black;
+    font-size: medium;
+    background-color: blanchedalmond;
+    white-space: nowrap;
+    border:2px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    transform: translateX(-50%);
+    padding: 10px 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5 s ease;
+
+}
+#street-obj::before{
+    content: "";
+    position: absolute;
+    left:50%;
+    top:100%;
+    transform: translateX(-50%);
+    border:15px solid;
+    border-color: blanchedalmond #0000 #0000 #0000;
+}
+#street_div:hover #street-obj{
+    
+    visibility: visible;
+    opacity: 0.9;
+}
+#sc1_img{
+    float:left;
+    width:150px;
+    height:130px;
+    cursor: pointer;
+    margin-top: 290px;
+    margin-left: 340px;
+    position: absolute;
+}
+
+#sc2_img{
+    height:130px;
+    width:180px;
+    margin-top: 300px;
+    margin-left: 760px;
+    float:left;
+    position: absolute;
+    cursor: pointer;
+}
+ #sc3_img{
+    height:100px;
+    width:130px;
+    margin-top: 320px;
+    margin-left:920px;
+    float:left;
+    position: absolute;
+    cursor: pointer;
+}
+
+#sc4_img{
+    height:110px;
+    width:130px;
+    margin-left:1100px;
+    margin-top: 355px;
+    float:left;
+    position: absolute;
+    cursor: pointer;
+    
+}
+#sc5_img{
+    height:205px;
+    width:160px;
+    margin-left: 1150px;
+    margin-top: 373px;
+    float:left;
+    position: absolute;
+    cursor: pointer;
+} 
+#back_info{
+margin-left: 350px;
+margin-top: 150px;
+height: 70px;
+width: 300px;
+font-size: large;
+color:black;
+background-color: #23B2EE;
+font-weight: bolder;
+border: 3px solid black;
+border-radius: 10px;
+cursor: pointer;
+}
+
+#back_info:hover{
+    color:black;;
+    background-color: #009dff;
+}
+#pta{
+    margin-left: 350px;
+    margin-top:100px;
+    height: 70px;
+    width: 300px;
+    font-size: large; 
+    color:black;
+    background-color: #23B2EE;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#pta:hover{
+    color:black;;
+    background-color: #009dff;
+}
+#set{
+    margin-left: 350px;
+    margin-top: 80px;
+    height: 70px;
+    width: 300px;
+    font-size: medium; 
+    color:whitesmoke;
+    background-color: #222222;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#set:hover{
+    color:burlywood;
+}
+#plot{
+    margin-left: 350px;
+    margin-top: 100px;
+    height: 70px;
+    width: 300px;
+    font-size: large; 
+    color:black;
+    background-color: #23B2EE;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#plot:hover{
+        color:black;;
+        background-color: #009dff;
+    
+}
+
+
+#rad_para{
+  font-weight: bold;
+    font-size:25px;
+    text-align: justify;
+    padding: 30px;
+}
+
+#back{
+    margin-left: 850px;
+    margin-top: 25px;
+    height: 50px;
+    width: 120px;
+    font-size: medium; 
+    color:whitesmoke;
+    background-color: #222222;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+#lineobj1img
+{
+    width: 85px;
+    height: 100px;
+    margin-top: 40px;
+   
+    float:left;
+    display: none;
+    position:fixed;
+    animation-delay: 20s;
+    
+}
+#lineobj2img
+{
+    width: 30px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 52px;
+    float:left;
+    display: none;
+    position:fixed;
+    animation-delay: 20s;
+    
+}
+#lineobj3img
+{
+    width:40px;
+    height:150px;
+    position: absolute;
+    float:left;
+    display: none;
+    position:fixed;
+    margin-left:53px;
+    animation-delay: 20s;
+}
+
+#lineobj4img
+{
+    width: 160px;
+    height: 120px;
+    margin-top: 20px;
+    float:left;
+    display: none;
+    position:fixed;
+    margin-left: 3px;
+    animation-delay: 20s;
+
+}
+
+#lineobj5img
+{
+    width: 160px;
+    height: 120px;
+    margin-top: 38px;
+    float:left;
+    display: none;
+    position:fixed;
+    margin-left: 8px;
+    animation-delay: 20s;
+
+}
+#refimg{
+    margin-top: 10px;
+    margin-left: 60px;
+    height:30px;
+    width:20px
+}
+#refdot{
+    margin-top: 100px;
+    margin-left: 60px;
+   
+}
+#drawobjimg
+{
+    margin-left:20px;
+    height: 50px;
+    width: 70px;
+    position:fixed;
+    animation-play-state:unset;
+}
+#sheet
+{
+    margin-top: 320px;
+    margin-left: 620px;
+    margin-bottom: 0px;
+    float: left;
+    height: 160px;
+    width:150px;
+    background-color:#DEDEDE;
+    transform: perspective(750px)scaleZ(2)rotateX(70deg);
+    opacity:0.9;
+    border: 1px 1px 5px 5px solid ;
+    border-color: #B7410E ;
+    position:absolute;
+
+}
+#tripodimg
+{
+    margin-top: 435px;
+    float: left;
+    height: 135px;
+    width: 150px;
+    position:fixed;
+    margin-left: 270px;
+    
+}
+#adilade_view{
+    margin-top: 250px;
+    margin-left: 20px;
+    width:300px;
+    height:220px;
+    background-color:blanchedalmond;
+    position: absolute;
+    
+    font-weight: bolder;
+    font-size: 30px;
+    padding:10px;
+}
+#alidade_img{
+    height: 220px;
+    width:300px;
+}
+#a1,#a2,#a3,#a4,#b1,#b2,#b3,#b4,#c1,#c2,#c3,#c4,#d1,#d2,#d3,#d4,#e1,#e2,#e3,#e4{
+    height: 220px;
+    width:300px;
+    position: absolute;
+    float: left;
+    z-index:1;
+    display: none;
+}
+#reset{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 125px;
+    float: left;
+    height: 50px;
+    width: 110px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+#h{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 100px;
+    float: left;
+    height: 50px;
+    width: 110px;
+    opacity: 0.9;
+}
+
+#result{
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 100px;
+    height: 50px;
+    width: 100px;
+    opacity: 0.9;
+    cursor: pointer;
+ 
+}
+#stand_img{
+    height:90px;
+    width:325px;
+    float:left;
+    margin-top: 475px;
+    margin-left: 20px;
+    position:relative;
+}
+
+
+[type=radio]{
+    display:none;
+}
+#slider{
+    height:35vw;
+    position:relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+#slider label{
+    margin: auto;
+    width: 60%;
+    height:100%;
+    border-radius: 4px;
+    position: absolute;
+    left:0;
+    right: 0;
+    cursor:pointer;
+    transition:transform 0.4s ease;
+}
+#graph{
+    float: left;
+    height: 700px;
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 300px;
+    position: absolute;
+    }
+#home{
+        float: left;
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color:green;
+        color: whitesmoke;
+        margin-top: 400px;
+        margin-left: 1150px;
+        position: absolute;
+        cursor: pointer;
+        
+    }
+    #home:hover{
+        color:white;
+        background-color:#3895D3;
+    }
+    #symbol{
+        float: left;
+        margin-top: 500px;
+        margin-left: 1100px;
+        position: absolute;
+    
+    }
+
+
+
+
+
+

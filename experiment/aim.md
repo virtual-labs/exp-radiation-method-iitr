@@ -1,1 +1,1 @@
-### Aim of the experiment
+#### To plot the details by Radiation Method using Plane Table.
