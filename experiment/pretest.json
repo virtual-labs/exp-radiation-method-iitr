@@ -1,39 +1,4 @@
 {
   "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
+  "questions":[{"question":"Which of the following methods can be useful in having an enlarged output?","answers":{"a":"Intersection","b":"Resection","c":"Traversing","d":"Radiation"},"correctAnswer":"d"},{"question":"Which of the following methods is a widely used method of plane tabling?","answers":{"a":"Traversing","b":"Intersection","c":"Radiation","d":"Resection"},"correctAnswer":"a"},{"question":"Which of the following can give the best output?","answers":{"a":"Intersection","b":"Resection","c":"Traversing","d":"Radiation"},"correctAnswer":"c"},{"question":"Which of the following methods is more suitable in case of small distances?","answers":{"a":"Traversing","b":"Resection","c":"Intersection","d":"Radiation"},"correctAnswer":"d"},{"question":"Which of the following methods is having a wider scope with the use of tacheometer?","answers":{"a":"Resection","b":"Traversing","c":"Radiation","d":"Intersection"},"correctAnswer":"c"}]
 }
