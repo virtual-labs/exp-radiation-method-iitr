@@ -1,1 +1,1 @@
-#### To plot the details by Radiation Method using Plane Table.
+#### To plot the details by radiation method using plane table.

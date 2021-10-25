@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0;
 }
-
 #header {
     border-bottom: 8px solid #ff6600;
     font-family: 'Raleway', sans-serif;
@@ -61,7 +60,7 @@ ol{
 
     margin-top: 10px;
     margin-left: 10px;
-    height: 720px;
+    height: 760px;
     width: 1300px;
     background-color: blanchedalmond;
     border: 3px solid black;
@@ -393,7 +392,6 @@ cursor: pointer;
 #plot:hover{
         color:black;;
         background-color: #009dff;
-    
 }
 
 
@@ -421,10 +419,10 @@ cursor: pointer;
 
 #lineobj1img
 {
-    width: 85px;
-    height: 100px;
-    margin-top: 40px;
-   
+    width: 40px;
+    height: 90px;
+    margin-top: 45px;
+    margin-left:42px;
     float:left;
     display: none;
     position:fixed;
@@ -433,10 +431,10 @@ cursor: pointer;
 }
 #lineobj2img
 {
-    width: 30px;
-    height: 100px;
-    margin-top: 10px;
-    margin-left: 52px;
+    width: 100px;
+    height: 130px;
+    margin-left: 32px;
+    margin-top:15px;
     float:left;
     display: none;
     position:fixed;
@@ -445,25 +443,26 @@ cursor: pointer;
 }
 #lineobj3img
 {
-    width:40px;
+    width:100px;
     height:150px;
     position: absolute;
     float:left;
     display: none;
     position:fixed;
-    margin-left:53px;
+    margin-left:43px;
     animation-delay: 20s;
+    margin-top:7px;
 }
 
 #lineobj4img
 {
-    width: 160px;
+    width: 100px;
     height: 120px;
-    margin-top: 20px;
+    margin-top: 40px;
     float:left;
     display: none;
     position:fixed;
-    margin-left: 3px;
+    margin-left: 40px;
     animation-delay: 20s;
 
 }
@@ -472,32 +471,36 @@ cursor: pointer;
 {
     width: 160px;
     height: 120px;
-    margin-top: 38px;
+    margin-top: 50px;
     float:left;
     display: none;
     position:fixed;
-    margin-left: 8px;
+    margin-left:15px;
     animation-delay: 20s;
 
 }
 #refimg{
-    margin-top: 10px;
-    margin-left: 60px;
-    height:30px;
-    width:20px
+    margin-top: 120px;
+    margin-left: 65px;
+    height:15px;
+
+    width:10px;
+    position: absolute;
 }
 #refdot{
     margin-top: 100px;
-    margin-left: 60px;
-   
+    margin-left: 70px;
+    height:7px;
+    width:7px;
+   position:absolute;
 }
 #drawobjimg
 {
-    margin-left:20px;
+    margin-top: 100px;
+    margin-left: 85px;
     height: 50px;
     width: 70px;
-    position:fixed;
-    animation-play-state:unset;
+    position:absolute;
 }
 #sheet
 {
@@ -519,10 +522,10 @@ cursor: pointer;
 {
     margin-top: 435px;
     float: left;
-    height: 135px;
-    width: 150px;
-    position:fixed;
-    margin-left: 270px;
+    height: 180px;
+    width: 180px;
+    position:absolute;
+    margin-left: 260px;
     
 }
 #adilade_view{
@@ -532,7 +535,6 @@ cursor: pointer;
     height:220px;
     background-color:blanchedalmond;
     position: absolute;
-    
     font-weight: bolder;
     font-size: 30px;
     padding:10px;
@@ -577,6 +579,7 @@ cursor: pointer;
     width: 100px;
     opacity: 0.9;
     cursor: pointer;
+    
  
 }
 #stand_img{
@@ -587,8 +590,6 @@ cursor: pointer;
     margin-left: 20px;
     position:relative;
 }
-
-
 [type=radio]{
     display:none;
 }
@@ -642,9 +643,16 @@ cursor: pointer;
         position: absolute;
     
     }
+    
+    #paras{
+      color:#180f08;
+        position:absolute;
+        margin-top:90px;
+        margin-left: 80px;
+        font-size:25px;
+    }
 
 
 
 
-
-
+    
