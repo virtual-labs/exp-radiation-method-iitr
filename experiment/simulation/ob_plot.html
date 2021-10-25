@@ -1,6 +1,6 @@
 <html>
 <head>
-<link href="CSS/style.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="js/jquery.min.js"></script>
@@ -9,20 +9,19 @@
 
     <div id="main_ob_plot">
     <div><marquee direction="left"><img id="birds" src="images\birds.gif"></marquee></div>
-        <img id="reset" src="images\reset.png" onclick="Reset()">
-        <a href="index.html"><img id="h" src="images\home.png"></a>
-   
+    <img id="reset" src="images\reset.png" onclick="Reset()">
+    <a href="index.html"><img id="h" src="images\home.png"></a>
     <div>
     <div id="tree_div"><span id="tree-obj">Object 1 (Tree)</span>
-    <span><img id="tree" src="images\tree.PNG" onclick="tree()" class="obj1"></span></div>
+    <span><img id="tree" src="images\tree.PNG" onclick="tree()" class="obj"></span></div>
     <div id="tower_div"><span id="tower-obj">Object 2 (Tower)</span>
-    <span><img id="tower" src="images\tower.PNG" onclick="tower()" class="obj1"></span></div>
+    <span><img id="tower" src="images\tower.PNG" onclick="tower()" class="obj"></span></div>
     <div id="solar_div"><span id="solar-obj">Object 3 (Solar Panel)</span>
-    <span><img id="solar1" src="images\solar1.PNG" onclick="solar()"  class="obj1"></span></div>
+    <span><img id="solar1" src="images\solar1.PNG" onclick="solar()"  class="obj"></span></div>
    <div id="house_div"><span id="house-obj">Object 4 (House)</span>
-    <span> <img id="house" src="images\house.PNG"  onclick="house()"  class="obj1"></span></div>
+    <span> <img id="house" src="images\house.PNG"  onclick="house()"  class="obj"></span></div>
      <div id="street_div"><span id="street-obj">Object 5 (Street Light)</span>
-    <span> <img id="solar2" src="images\solar2.PNG" onclick="street()"  class="obj1"></span></div>
+    <span> <img id="solar2" src="images\solar2.PNG" onclick="street()" class="obj"></span></div>
     <img id="sc1_img" src="images\sc1.jpg"   onclick="show1()" class="scale_img">
     <img id="sc2_img"  src="images\sc2.jpg" onclick="show2()" class="scale_img">
     <img id="sc3_img" src="images\sc3.jpg" onclick="show3()" class="scale_img">
@@ -30,17 +29,19 @@
     <img id="sc5_img" src="images\sc5.jpg" onclick="show5()" class="scale_img">
     </div>
     
-    <a href="graph.html"><img id="result" src="images\result.png" ></a>
+    <a href="graph.html"><img id="result" src="images\result.png"></a>
     
 <div id="sheet">
 <img id="lineobj1img" src="images\line1.png" alt="line1">
-<img id="lineobj2img" src="images\line2.png" alt="line2">
-<img id="lineobj3img" src="images\line3.png" alt="line3">
+<img id="lineobj2img" src="images\line2-Copy.png" alt="line2">
+<img id="lineobj3img" src="images\line3 - Copy.png" alt="line3">
 <img id="lineobj4img" src="images\line4.png" alt="line4">
 <img id="lineobj5img" src="images\line5.png" alt="line5">
 <img id="refdot" src="images\refdot.png" alt="ref dot">
 <img id="refimg" src="images\refa.png" alt="ref point">
+
 <img id="drawobjimg" src="images\drawobj.png" class="draw" alt="draw">
+
 </div>
 
 <div id="adilade_view">
@@ -65,11 +66,12 @@
 <img id="e1" src="images\a1.png">
 <img id="e2" src="images\a2.png">
 <img id="alidade_img" src="images\alidade.PNG">
+<p id="paras">Scale-1:1000</p>
 </center>
 </div>
 
 <img id="stand_img" src="images\stand.png">
-<img id="tripodimg" src="images\tri.png" alt="tri">
+<img id="tripodimg" src="images\tri_-_Copy.png" alt="tri">
 <br>
 </div>
 <script src="js/main.js"></script>

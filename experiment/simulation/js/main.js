@@ -88,32 +88,20 @@ function tree()
         
         setTimeout(function(){ document.getElementById("alidade_img").src="images/a3.png"; }, 400);
         setTimeout(function(){  document.getElementById("alidade_img").src="images/a4.png"; }, 800);
-        setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-95px,-60px)scale(1)rotateY(150deg)"; }, 400);
+        setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-70px,-45px)scale(1)rotateY(150deg)"; }, 400);
         setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
         setInterval(() => {document.getElementById("lineobj1img").style.display="inline"}, 400);
-        /*document.getElementById("drawobjimg").animate([
-            // keyframes
-            { transform: 'translate(0px,0px)' },
-            { transform: 'translate(-95px,-60px)scale(1)rotateY(150deg)' },
-            { transform: 'translate(0px,0px)' }
-          ], {duration: 1000});  //timing function
-          setInterval(() => {document.getElementById("lineobj1img").style.display="inline"}, 600);*/
+        
 }
 function tower()
 {
    
     setTimeout(function(){ document.getElementById("alidade_img").src="images/b3.png"; }, 400);
     setTimeout(function(){  document.getElementById("alidade_img").src="images/b4.png"; }, 800);
-    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-70px,-90px)scale(3)rotateY(90.5deg)"; }, 400);
+    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-40px,-65px)scale(2)rotateY(80deg)"; }, 400);
     setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
     setInterval(() => {document.getElementById("lineobj2img").style.display="inline"}, 400);
-       /* document.getElementById("drawobjimg").animate([
-            // keyframes
-            { transform: 'translate(0px,0px)' },
-            { transform: 'translate(-67px,-67px)scale(1.5)rotateY(92deg)' },
-            { transform: 'translate(0px,0px)' }
-          ], {duration: 1000});  //timing function
-          setInterval(() => {document.getElementById("lineobj2img").style.display="inline"}, 600);*/
+   
 }
 
 function solar()
@@ -121,16 +109,10 @@ function solar()
    
     setTimeout(function(){ document.getElementById("alidade_img").src="images/c3.png"; }, 400);
     setTimeout(function(){  document.getElementById("alidade_img").src="images/c4.png"; }, 800);
-    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-65px,-60px)scale(1)rotateY(85deg)"; }, 400);
+    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-25px,-65px)scale(2)rotateY(60deg)"; }, 400);
     setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
     setInterval(() => {document.getElementById("lineobj3img").style.display="inline"}, 400);
-       /* document.getElementById("drawobjimg").animate([
-            // keyframes
-            { transform: 'translate(0px,0px)' },
-            { transform: 'translate(-65px,-60px)scale(1)rotateY(85deg)' },
-            { transform: 'translate(0px,0px)' }
-          ], {duration: 1000});  //timing function
-          setInterval(() => {document.getElementById("lineobj3img").style.display="inline"}, 600);*/
+      
 }
 
 function house()
@@ -138,48 +120,32 @@ function house()
    
     setTimeout(function(){ document.getElementById("alidade_img").src="images/d3.png"; }, 400);
     setTimeout(function(){  document.getElementById("alidade_img").src="images/d4.png"; }, 800);
-    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-55px,-60px)scale(1.5)rotateY(70deg)"; }, 400);
+    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-20px,-45px)scale(1)rotateY(359deg)"; }, 400);
     setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
     setInterval(() => {document.getElementById("lineobj4img").style.display="inline"}, 400);
-     /*  document.getElementById("drawobjimg").animate([
-            // keyframes
-            { transform: 'translate(0px,0px)' },
-            { transform: 'translate(-60px,-60px)scale(1)rotateY(70deg)' },
-            { transform: 'translate(0px,0px)' }
-          ], {duration: 1000});  //timing function
-          setInterval(() => {document.getElementById("lineobj4img").style.display="inline"}, 600);*/
+   
 }
 function street()
 {
    
     setTimeout(function(){ document.getElementById("alidade_img").src="images/e3.png"; }, 400);
     setTimeout(function(){  document.getElementById("alidade_img").src="images/e4.png"; }, 800);
-    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-45px,-50px)scale(1)rotateY(30deg)"; }, 400);
+    setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-20px,-25px)scale(1)rotateX(-150deg)"; }, 400);
     setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
     setInterval(() => {document.getElementById("lineobj5img").style.display="inline"}, 400);
-     /*  document.getElementById("drawobjimg").animate([
-            // keyframes
-            { transform: 'translate(0px,0px)' },
-            { transform: 'translate(-45px,-50px)scale(1)rotateY(30deg)' },
-            { transform: 'translate(0px,0px)' }
-          ], {duration: 1000});  //timing function
-          setInterval(() => {document.getElementById("lineobj5img").style.display="inline"}, 600);*/
+    
 }
-const imgs = Array.from(document.querySelectorAll('.ob'));
+const imgs = Array.from(document.querySelectorAll('.obj'));
         // Add event listener for document:
         document.addEventListener('click', event => {
             // Has one of the images been clicked?
-            if (event.target.classList.contains('ob')) {
+            if (event.target.classList.contains('obj')) {
                 // Add class indicating that is has been clicked:
                 event.target.classList.add('is-clicked');
                 // Check if all images have been clicked:
                 if (!imgs.find(item => !item.classList.contains('is-clicked'))) {
                     // Make button visible:
-                    alert("hello");
-                    document.querySelector('#result').style.display ='inline';
-                    
+                    document.querySelector('#result').style.display='inline';
                 }
             }
         });
-     
-       
