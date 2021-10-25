@@ -12,21 +12,21 @@ This experiment is useful to study detail plotting by radiation method.<br>
 ### Equipments Used
  <br>
 1) Plane table with tripod.<br>
-2) Alidade
-3) Plump bob
-4) Plumbing fork
-5) Ranging rods
-6) Spirit level tube
-7) Drawing sheet
-8) Level with tripod
-9) Leveling staff
-10) Magnetic compass
-11) Measuring tape
-12) Graticule
-13) Clinometer
-14) Theodolite
-15) Staff     
-<br><br>
+2) Alidade.<br>
+3) Plump bob.<br>
+4) Plumbing fork.<br>
+5) Ranging rods.<br>
+6) Spirit level tube.<br>
+7) Drawing sheet.<br>
+8) Level with tripod.<br>
+9) Leveling staff.<br>
+10) Magnetic compass.<br>
+11) Measuring tape.<br>
+12) Graticule.<br>
+13) Clinometer.<br>
+14) Theodolite.<br>
+15) Staff   .<br>  
+<br>
 
 ### Dos and Don'ts
 <br>
