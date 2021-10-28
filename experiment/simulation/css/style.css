@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0;
 }
-
 #header {
     border-bottom: 8px solid #ff6600;
     font-family: 'Raleway', sans-serif;
@@ -61,7 +60,7 @@ ol{
 
     margin-top: 10px;
     margin-left: 10px;
-    height: 720px;
+    height: 760px;
     width: 1300px;
     background-color: blanchedalmond;
     border: 3px solid black;
@@ -80,6 +79,7 @@ ol{
     float:left;
     cursor: pointer;
     position:absolute;
+    
     
 }
 #tree-obj{
@@ -117,11 +117,12 @@ ol{
 
 #tower{
 
-    margin-top: 230px;
+    margin-top: 220px;
     margin-left: 810px;
     float:left;
     cursor: pointer;
     position:absolute;
+    
 }
 #tower-obj{
     position: absolute;
@@ -163,6 +164,7 @@ ol{
     float:left;
     cursor: pointer;
     position:absolute;
+    
 }
 #solar-obj{
     position: absolute;
@@ -200,11 +202,12 @@ ol{
 
 #house{
 
-    margin-top: 285px;
+    margin-top: 275px;
     margin-left: 1080px;
     float:left;
     cursor: pointer;
     position:absolute;
+    
 }
 #house-obj{
     position: absolute;
@@ -240,11 +243,12 @@ ol{
 }
 #solar2{
 
-    margin-top: 350px;
+    margin-top: 340px;
     margin-left: 1195px;
     float:left;
     cursor: pointer;
     position:absolute;
+  
 }
 #street-obj{
     position: absolute;
@@ -393,7 +397,6 @@ cursor: pointer;
 #plot:hover{
         color:black;;
         background-color: #009dff;
-    
 }
 
 
@@ -421,10 +424,10 @@ cursor: pointer;
 
 #lineobj1img
 {
-    width: 85px;
-    height: 100px;
-    margin-top: 40px;
-   
+    width: 40px;
+    height: 90px;
+    margin-top: 45px;
+    margin-left:42px;
     float:left;
     display: none;
     position:fixed;
@@ -433,10 +436,10 @@ cursor: pointer;
 }
 #lineobj2img
 {
-    width: 30px;
-    height: 100px;
-    margin-top: 10px;
-    margin-left: 52px;
+    width: 100px;
+    height: 130px;
+    margin-left: 32px;
+    margin-top:15px;
     float:left;
     display: none;
     position:fixed;
@@ -445,25 +448,26 @@ cursor: pointer;
 }
 #lineobj3img
 {
-    width:40px;
+    width:100px;
     height:150px;
     position: absolute;
     float:left;
     display: none;
     position:fixed;
-    margin-left:53px;
+    margin-left:43px;
     animation-delay: 20s;
+    margin-top:7px;
 }
 
 #lineobj4img
 {
-    width: 160px;
+    width: 100px;
     height: 120px;
-    margin-top: 20px;
+    margin-top: 40px;
     float:left;
     display: none;
     position:fixed;
-    margin-left: 3px;
+    margin-left: 40px;
     animation-delay: 20s;
 
 }
@@ -472,32 +476,36 @@ cursor: pointer;
 {
     width: 160px;
     height: 120px;
-    margin-top: 38px;
+    margin-top: 50px;
     float:left;
     display: none;
     position:fixed;
-    margin-left: 8px;
+    margin-left:15px;
     animation-delay: 20s;
 
 }
 #refimg{
-    margin-top: 10px;
-    margin-left: 60px;
-    height:30px;
-    width:20px
+    margin-top: 120px;
+    margin-left: 65px;
+    height:15px;
+
+    width:10px;
+    position: absolute;
 }
 #refdot{
     margin-top: 100px;
-    margin-left: 60px;
-   
+    margin-left: 70px;
+    height:7px;
+    width:7px;
+   position:absolute;
 }
 #drawobjimg
 {
-    margin-left:20px;
+    margin-top: 100px;
+    margin-left: 85px;
     height: 50px;
     width: 70px;
-    position:fixed;
-    animation-play-state:unset;
+    position:absolute;
 }
 #sheet
 {
@@ -517,12 +525,12 @@ cursor: pointer;
 }
 #tripodimg
 {
-    margin-top: 435px;
+    margin-top: 433px;
     float: left;
-    height: 135px;
-    width: 150px;
-    position:fixed;
-    margin-left: 270px;
+    height: 160px;
+    width: 180px;
+    position:absolute;
+    margin-left: 260px;
     
 }
 #adilade_view{
@@ -532,7 +540,6 @@ cursor: pointer;
     height:220px;
     background-color:blanchedalmond;
     position: absolute;
-    
     font-weight: bolder;
     font-size: 30px;
     padding:10px;
@@ -571,24 +578,25 @@ cursor: pointer;
 
 #result{
     position: absolute;
-    margin-left: 830px;
-    margin-top: 100px;
+    margin-left: 110px;
+    margin-top: 70px;
+    float: left;
     height: 50px;
-    width: 100px;
+    width: 110px;
     opacity: 0.9;
     cursor: pointer;
+    display:none;
+  
  
 }
 #stand_img{
     height:90px;
     width:325px;
     float:left;
-    margin-top: 475px;
+    margin-top: 483px;
     margin-left: 20px;
     position:relative;
 }
-
-
 [type=radio]{
     display:none;
 }
@@ -642,9 +650,47 @@ cursor: pointer;
         position: absolute;
     
     }
+    
+    #paras{
+      color:#180f08;
+        position:absolute;
+        margin-top:85px;
+        margin-left: 80px;
+        font-size:25px;
+    }
 
+    #ins{
+        position: absolute;
+        margin-left: 100px;
+        height: 35px;
+        width:130px;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 5px;
+        
+        cursor: pointer;
+        background-color: 	#2e5073;
+        color: whitesmoke;
+        
 
+}
+#ins_span{
+    position: absolute;
+    background-color: white;
+    margin-top: 35px;
+    opacity:0.85;
+    margin-left: 100px;
+    font-size: 16px;
+    width:600px;
+    cursor: pointer;
+    z-index: 1;
+    text-align: justify;
+    padding: 10px;
+    display: none;
+}
 
+#ins:hover + #ins_span{
+    display: inline-block;
+}
 
-
-
+    
