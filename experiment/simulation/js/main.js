@@ -85,8 +85,10 @@ function show1()
    //OBJECT FUNCTIONS
 function tree()
 {
+
         setTimeout(function(){ document.getElementById("alidade_img").src="images/a3.PNG"; }, 400);
         setTimeout(function(){  document.getElementById("alidade_img").src="images/a4.PNG"; }, 800);
+
         setTimeout(function(){ document.getElementById("drawobjimg").style.transform="translate(-70px,-45px)scale(1)rotateY(150deg)"; }, 400);
         setTimeout(function(){  document.getElementById("drawobjimg").style.transform="translate(0px,0px)"; }, 800);
         setInterval(() => {document.getElementById("lineobj1img").style.display="inline"}, 400);
