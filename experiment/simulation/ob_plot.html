@@ -1,14 +1,23 @@
-<html>
+<!DOCTYPE html>
 <head>
 <link href="css/style.css" rel="stylesheet" type="text/css">
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="js/jquery.min.js"></script>
 </head>
 <body >
 
     <div id="main_ob_plot">
     <div><marquee direction="left"><img id="birds" src="images\birds.gif"></marquee></div>
+    <button id="ins"  >INSTRUCTIONS
+ </button>
+    <span id="ins_span"><b>1.</b> Five objects are placed in this given filed i.e.(tree, water tank, solar panel pole, house and flag).<br><br>
+<b>2.</b> On the left side of the pane, alidade view of objects is also given to see the clear view of the objects.<br><br>
+<b>3.</b> Click on the object and we will get a telescopic view through alidade and the line is drawn parallel to the line joining the intersection of the cross hairs and the object and the length is determined by actually scaling off the distance between them. <br><br>
+<b>4.</b> After taking all the observations click on the <b>"Result Button"</b>.<br><br>
+<b>5.</b> Observations are displayed in the graphical form.<br>
+<br></span>
+    <a href="graph.html"><img id="result" src="images\result.png"></a>
     <img id="reset" src="images\reset.png" onclick="Reset()">
     <a href="index.html"><img id="h" src="images\home.png"></a>
     <div>
@@ -29,7 +38,7 @@
     <img id="sc5_img" src="images\sc5.jpg" onclick="show5()" class="scale_img">
     </div>
     
-    <a href="graph.html"><img id="result" src="images\result.png"></a>
+   
     
 <div id="sheet">
 <img id="lineobj1img" src="images\line1.png" alt="line1">
