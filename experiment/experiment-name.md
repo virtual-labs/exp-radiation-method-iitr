@@ -1,1 +1,1 @@
-## Detail Plotting by Radiation method.
+## Detail plotting by radiation method.
