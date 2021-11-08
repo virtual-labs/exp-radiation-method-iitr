@@ -620,7 +620,9 @@ cursor: pointer;
     padding: 10px;
     display: none;
 }
-
+#ins:hover{
+    background-color: #009dff;
+}
 #ins:hover + #ins_span{
     display: inline-block;
 }
