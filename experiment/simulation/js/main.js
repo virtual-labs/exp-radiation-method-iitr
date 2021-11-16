@@ -212,11 +212,7 @@ function street()
     });
     
 }
-function show_ar(){
- 
-  document.getElementById("downarrow").style.display="inline";
 
-}
 
 function fl_br_based()
 {   
