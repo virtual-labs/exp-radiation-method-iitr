@@ -11,26 +11,26 @@
     <div><marquee direction="left"><img id="birds" src="images\birds.gif"></marquee></div>
     <button id="ins"  >INSTRUCTIONS
  </button>
-    <span id="ins_span"><b>1.</b> Five objects are placed in this given filed i.e.(tree, water tank, solar panel pole, house and street light).<br><br>
+    <span id="ins_span"><b>1.</b> Five objects are placed in this given filed i.e.(tree, water tank, solar pole, house and street light).<br><br>
 <b>2.</b> On the left side of the pane, alidade view of objects is also given to see the clear view of the objects.<br><br>
-<b>3.</b> Click on the object and we will get a telescopic view through alidade and the line is drawn parallel to the line joining the intersection of the cross hairs and the object and the length is determined by actually scaling off the distance between them. <br><br>
-<b>4.</b> After taking all the observations click on the <b>"Result Button"</b>.<br><br>
+<b>3.</b> Click on the object (only when object hover appears) and we will get a telescopic view through alidade and the line is drawn parallel to the line joining the intersection of the cross hairs and the object and the length is determined by actually scaling off the distance between them. <br><br>
+<b>4.</b> After taking all the observations click on the <b>Result Button</b>.<br><br>
 <b>5.</b> Observations are displayed in the graphical form.<br>
 <br></span>
     <a href="graph.html"><img id="result" src="images\result.png"></a>
     <img id="reset" src="images\reset.png" onclick="Reset()">
     <a href="index.html"><img id="h" src="images\home.png"></a>
     <div>
-    <div id="tree_div"><span id="tree-obj">Object 1 (Tree)</span>
-    <span><img id="tree" src="images\tree.PNG" onclick="tree()" class="obj"></span></div>
-    <div id="tower_div"><span id="tower-obj">Object 2 (Tower)</span>
-    <span><img id="tower" src="images\tower.PNG" onclick="tower()" class="obj"></span></div>
-    <div id="solar_div"><span id="solar-obj">Object 3 (Solar Panel)</span>
-    <span><img id="solar1" src="images\solar1.PNG" onclick="solar()"  class="obj"></span></div>
-   <div id="house_div"><span id="house-obj">Object 4 (House)</span>
-    <span> <img id="house" src="images\house.PNG"  onclick="house()"  class="obj"></span></div>
-     <div id="street_div"><span id="street-obj">Object 5 (Street Light)</span>
-    <span> <img id="solar2" src="images\solar2.PNG" onclick="street()" class="obj"></span></div>
+    <img id="tree" src="images\tree.PNG" onclick="tree()" class="obj">
+      <p id="tree_h">Object 1 (Tree)</p>
+    <img id="tower" src="images\tower.PNG" onclick="tower()" class="obj">
+       <p id="tower_h">Object 2 (Water Tank)</p>
+   <img id="solar1" src="images\solar1.PNG" onclick="solar()"  class="obj">
+      <p id="solar1_h">Object 3 (Solar Pole)</p>
+   <img id="house" src="images\house.PNG"  onclick="house()"  class="obj">
+      <p id="house_h">Object 4 (House)</p>
+    <img id="solar2" src="images\solar2.PNG" onclick="street()" class="obj">
+       <p id="solar2_h">Object 5 (Street Light)</p>
     <img id="sc1_img" src="images\sc1.jpg"   onclick="show1()" class="scale_img">
     <img id="sc2_img"  src="images\sc2.jpg" onclick="show2()" class="scale_img">
     <img id="sc3_img" src="images\sc3.jpg" onclick="show3()" class="scale_img">
