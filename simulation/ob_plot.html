@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body >
+
+    <div id="main_ob_plot">
+    <div><marquee direction="left"><img id="birds" src="images\birds.gif"></marquee></div>
+    <button id="ins"  >INSTRUCTIONS
+ </button>
+    <span id="ins_span"><b>1.</b> Five objects are placed in this given filed i.e.(tree, water tank, solar pole, house and street light).<br><br>
+<b>2.</b> On the left side of the pane, alidade view of objects is also given to see the clear view of the objects.<br><br>
+<b>3.</b> Click on the object (only when object hover appears) and we will get a telescopic view through alidade and the line is drawn parallel to the line joining the intersection of the cross hairs and the object and the length is determined by actually scaling off the distance between them. <br><br>
+<b>4.</b> After taking all the observations click on the <b>Result Button</b>.<br><br>
+<b>5.</b> Observations are displayed in the graphical form.<br>
+<br></span>
+    <a href="graph.html"><img id="result" src="images\result.png"></a>
+    <img id="reset" src="images\reset.png" onclick="Reset()">
+    <a href="index.html"><img id="h" src="images\home.png"></a>
+    <div>
+    <img id="tree" src="images\tree.PNG" onclick="tree()" class="obj">
+      <p id="tree_h">Object 1 (Tree)</p>
+    <img id="tower" src="images\tower.PNG" onclick="tower()" class="obj">
+       <p id="tower_h">Object 2 (Water Tank)</p>
+   <img id="solar1" src="images\solar1.PNG" onclick="solar()"  class="obj">
+      <p id="solar1_h">Object 3 (Solar Pole)</p>
+   <img id="house" src="images\house.PNG"  onclick="house()"  class="obj">
+      <p id="house_h">Object 4 (House)</p>
+    <img id="solar2" src="images\solar2.PNG" onclick="street()" class="obj">
+       <p id="solar2_h">Object 5 (Street Light)</p>
+    <img id="sc1_img" src="images\sc1.jpg"   onclick="show1()" class="scale_img">
+    <img id="sc2_img"  src="images\sc2.jpg" onclick="show2()" class="scale_img">
+    <img id="sc3_img" src="images\sc3.jpg" onclick="show3()" class="scale_img">
+    <img id="sc4_img" src="images\sc4.jpg" onclick="show4()" class="scale_img">
+    <img id="sc5_img" src="images\sc5.jpg" onclick="show5()" class="scale_img">
+    </div>
+    
+   
+    
+<div id="sheet">
+<img id="lineobj1img" src="images\line1.png" alt="line1">
+<img id="lineobj2img" src="images\line2-Copy.png" alt="line2">
+<img id="lineobj3img" src="images\line3 - Copy.png" alt="line3">
+<img id="lineobj4img" src="images\line4.png" alt="line4">
+<img id="lineobj5img" src="images\line5.png" alt="line5">
+<img id="refdot" src="images\refdot.png" alt="ref dot">
+<img id="refimg" src="images\refa.png" alt="ref point">
+
+<img id="drawobjimg" src="images\drawobj.PNG" class="draw" alt="draw">
+
+</div>
+
+<div id="adilade_view">
+<center><img id="a3" src="images\a3.png">
+<img id="a4" src="images\a4.png">
+<img id="b3" src="images\a4.png">
+<img id="b4" src="images\a4.png">
+<img id="c3" src="images\a4.png">
+<img id="c4" src="images\a4.png">
+<img id="d3" src="images\a4.png">
+<img id="d4" src="images\a4.png">
+<img id="e3" src="images\a4.png">
+<img id="e4" src="images\a4.png">
+<img id="a1" src="images\a1.png">
+<img id="a2" src="images\a2.png">
+<img id="b1" src="images\a1.png">
+<img id="b2" src="images\a2.png">
+<img id="c1" src="images\a1.png">
+<img id="c2" src="images\a2.png">
+<img id="d1" src="images\a1.png">
+<img id="d2" src="images\a2.png">
+<img id="e1" src="images\a1.png">
+<img id="e2" src="images\a2.png">
+<img id="alidade_img" src="images\alidade.PNG">
+<p id="paras">Scale-1:1000</p>
+</center>
+</div>
+
+<img id="stand_img" src="images\stand.png">
+<img id="tripodimg" src="images\tri_-_Copy.png" alt="tri">
+<br>
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
